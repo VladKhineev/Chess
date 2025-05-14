@@ -17,8 +17,8 @@ class Player:
         self.finish_move(x, y, possible_moves, figure)
 
     def choose_figure(self, board):
-        x = 4  # int(input('x: '))
-        y = 4  # int(input('y: '))
+        y = 1  # int(input('y: '))
+        x = 6  # int(input('x: '))
         return board[y][x], x, y
 
     def finish_move(self, x, y, possible_moves, figure):
